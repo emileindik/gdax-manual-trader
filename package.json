@@ -1,0 +1,26 @@
+{
+  "name": "gdax-manual-trader",
+  "version": "1.0.0",
+  "description": "Use single keystrokes to send orders to GDAX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "asd"
+  },
+  "keywords": [
+    "GDAX",
+    "trade",
+    "trading",
+    "bot",
+    "manual"
+  ],
+  "author": "Emile Indik",
+  "license": "ISC",
+  "dependencies": {
+    "gdax": "^0.7.0",
+    "inquirer": "^5.2.0"
+  }
+}
