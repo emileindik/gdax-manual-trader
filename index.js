@@ -1,10 +1,9 @@
 const Gdax = require('gdax')
 const inquirer = require('inquirer')
 const config = require('./config')
-const questions = require('./questions')
-const Actions = require('./actions')
-const commandToAction = require('./commandToAction')
-
+const questions = require('./lib/questions')
+const Actions = require('./lib/actions')
+const commandToAction = require('./lib/commandToAction')
 
 
 
@@ -66,7 +65,7 @@ class ManualTrader {
       // if no data yet, exec = false
       if (!this.best_bid || !this.best_ask) exec = false
 
-      // use .call() bc this references commandToAction, not actions
+      // use .call() bc 'this' references commandToAction, not actions
       if (exec) this.commandToAction[c].call(this.actions, this.best_bid, this.best_ask)
       this.loop()
     })
@@ -75,6 +74,3 @@ class ManualTrader {
 }
 
 let mt = new ManualTrader()
-
-
-
