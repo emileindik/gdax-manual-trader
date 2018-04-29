@@ -7,6 +7,8 @@ gdax-manual-trader allows you to execute limit and market order with the press o
 * lot size
 
 You will be able to make trades by entering these default commands, followed by 'enter':
+
+
 | Command | Action                                                    |
 | ------- | --------------------------------------------------------  |
 | m       | limit buy at best bid                                     |
