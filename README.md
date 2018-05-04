@@ -1,12 +1,12 @@
 # gdax-manual-trader
-gdax-manual-trader allows you to execute limit and market order with the press of a button. After setting:
+gdax-manual-trader allows you to execute limit and market orders with the press of a button. Start by providing values for:
 * key
 * secret
 * passphrase
 * market to trade
 * lot size
 
-You will be able to make trades by entering these default commands, followed by 'enter':
+You will be then able to make trades by entering these default commands, followed by 'enter':
 
 | Command | Action                                                    |
 | ------- | --------------------------------------------------------  |
@@ -29,5 +29,6 @@ OR
 ```
 git clone https://github.com/emileindik/gdax-manual-trader.git
 cd gdax-manual-trader
+npm install
 node index.js
 ```

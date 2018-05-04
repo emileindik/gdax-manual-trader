@@ -1,6 +1,6 @@
 {
   "name": "gdax-manual-trader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use keyboard shortcuts to send orders to GDAX",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,10 @@
     "trade",
     "trading",
     "bot",
-    "manual"
+    "manual",
+    "order",
+    "cryptocurrency",
+    "bitcoin"
   ],
   "author": "Emile Indik",
   "license": "ISC",
